@@ -1,0 +1,46 @@
+.top{
+    background-color: black;
+    width: 70%;
+    height: 200px;
+    
+
+}
+.text0{
+    color: white;
+    
+  
+}
+.text0 .text1{
+    float: left;
+}
+.text0 .text2{
+    float: right;
+    margin-right: 20px;
+}
+ 
+     
+
+.top_nav{
+   
+    display: flex;
+    justify-content: end;
+
+}
+.top_nav a{
+    padding-left: 50px;
+    text-decoration: none;
+    padding-top: 40px;
+    margin-right: 20px;
+}
+.img1{
+    margin-top: 5%;
+}
+.container{
+    box-sizing: border-box;
+    padding: 10px;
+    
+    
+    
+    
+    
+}

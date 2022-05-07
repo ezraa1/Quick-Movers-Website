@@ -2,12 +2,15 @@ li {
   list-style: none;
   display: inline;
   float: right;
-  padding-top: 30px;
-  padding-inline-end: 20px;
+  /*padding-top: 30px;
+  padding-inline-end: 20px;*/
   color: white;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 h2 {
   color: #faff00;
+  margin-top: 5%;
 }
 .text {
   padding-top: 40px;
@@ -20,51 +23,71 @@ h2 {
   width: 100%;
   background-size: 900px 80%;
   background-repeat: no-repeat;
-  background-color: red;
-  
 }
-body{
-    margin-right: 40%;
-    margin-left: 5%;
-    font-family:  'Poppins,  Actor, Adamina';
-    
+body {
+  margin-right: 40%;
+  margin-left: 5%;
+  font-family: "Poppins,  Actor, Adamina";
 }
-.text1{
-    
-    padding-left: 0%;
-   margin-left: 50%;
-   margin-top: -30%;
-   
-   
-   
+.text1 {
+  padding-left: 0%;
+  margin-left: 50%;
+  margin-top: -30%;
 }
-.img1{
-   padding-top: 30px;
+.img1 {
+  padding-top: 30px;
 }
-.button1{
-    background-color: black;
-    color: #faff00;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-right: 60%;
-    padding: 5%;
-    cursor: pointer;
+.button1 {
+  background-color: black;
+  color: #faff00;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 60%;
+  padding: 5%;
+  cursor: pointer;
 }
-.movers{
-    display: flex;
+.movers {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin: 0%;
+  position: relative;
+  border: 2px solid red;
+  border-bottom: 20%;
+}
+.movers1 {
+  display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
   margin: 0%;
   position: relative;
 }
-.movers1{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    margin: 0%;
-    position: relative;
-    
+.links {
+  display: flex;
+  margin-top: 30px;
+  margin: 10%;
+  position: relative;
+  padding: 2px;
 }
-
-
-    
+.last {
+  background-color: black;
+}
+.text2 {
+  color: white;
+}
+.icons {
+  color: white;
+}
+h4 {
+  color: white;
+}
+.top{
+    margin-bottom: 20%;
+    margin-top: 0%;
+}
+.line1{
+    padding-top: 15%;
+    width: 10%;
+    border: #faff00;
+    height: 30px;
+}
