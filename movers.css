@@ -115,14 +115,22 @@ body{
     margin-right: 45%;
     background-color: rgb(238, 238, 238);
 }
+hr{
+    margin-right: 50%;
+    margin-left: 10%;
+}
+.f{
+    margin-left: 10%;
+}
 .features{
     display: flex;
-  margin-top: 30px;
-  margin: 10%;
+  margin-top: 50px;
+  margin-bottom: 10%;
   position: relative;
-  padding: 2px;
+  padding-right: 2px;
   background-color:rgb(238, 238, 238) ;
   margin-right: 45%;
+  margin-left: 10%;
   
 }
 .features li{
@@ -236,3 +244,8 @@ body{
       padding-left: 10px;
   }
 
+.features1 li span{
+ 
+  content: "\2714";
+  border-radius: 3px;
+}
