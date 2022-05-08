@@ -121,7 +121,7 @@ li h4{
   background-color: red;
   margin-left: 20%;
   margin-top:-10% ; */
-}
+
 h4 {
   color: white;
 }
@@ -168,4 +168,7 @@ h4 {
 .icons i{
   padding-right: 5px;
   
+}
+.last h4{
+  color: white;
 }
