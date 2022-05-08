@@ -11,6 +11,10 @@ li {
 .nav .black{
   background-color: red;
 }
+.nav .brown{
+  background-color: #faff00;
+  color: black;
+}
 h2 {
   color: #faff00;
   margin-top: 5%;
