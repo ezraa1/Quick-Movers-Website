@@ -129,3 +129,38 @@ i{
     list-style-type: disc;
 
 }
+.listings{
+    display: flex;
+  justify-content: space-evenly;
+  
+  position: relative;
+  
+  padding-left: -20%;
+  padding-right: -30%;
+}
+.similar hr{
+    margin-right: 84%;
+
+}
+.similar{
+    margin-left: 10%;  
+}
+.part{
+    display: flex;
+    margin-top: 30px;
+    margin: 10%;
+    position: relative;
+    padding: 2px;
+    color: white;
+}
+.last {
+    margin-top: 15%;
+    background-color: black;
+    margin-left: 10%;
+  }
+  .text2{
+      color: white;
+  }
+  span{
+      color:  #FAFF00;
+  }
