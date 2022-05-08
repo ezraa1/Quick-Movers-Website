@@ -9,13 +9,18 @@ li {
   margin-top: 5%;
 }
 .nav .black{
-  background-color: red;
+  background-color:black;
+  color: #faff00;
+  padding-right: 3%;
+  padding-left: 3%;
 }
 .nav .brown{
   background-color: #faff00;
   color: black;
+  padding-right: 3%;
+  padding-left: 3%;
 }
-h2 {
+h1 {
   color: #faff00;
   margin-top: 5%;
 }
@@ -36,6 +41,11 @@ body {
   margin-left: 5%;
   font-family: "Poppins,  Actor, Adamina";
 }
+
+.text1 hr{
+  margin-right: 80%;
+ top: 10px;
+}
 .text1 {
   padding-left: 0%;
   margin-left: 50%;
@@ -46,13 +56,20 @@ body {
 }
 .button1 {
   background-color: black;
-  color: #faff00;
-  text-decoration: none;
+
+  border-top-right-radius: 10px;
   border-radius: 4px;
   margin-right: 60%;
   padding: 5%;
-  cursor: pointer;
+  
 }
+.button1 a{
+  color:#faff00;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
 .movers {
   display: flex;
   justify-content: space-evenly;
@@ -61,6 +78,8 @@ body {
   position: relative;
   border: 2px solid red;
   border-bottom: 20%;
+  margin-bottom: 20%;
+  padding-bottom: 10%;
 }
 .movers1 {
   display: flex;
@@ -95,6 +114,11 @@ h4 {
 .line1{
     padding-top: 15%;
     width: 10%;
-    border: #faff00;
-    height: 30px;
+    color: rgb(59, 29, 29);
+    
+}
+.line1 hr{
+  height: 2px;
+  
+  
 }
