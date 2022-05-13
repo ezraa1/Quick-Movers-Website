@@ -155,6 +155,19 @@ hr {
 .similar {
   margin-left: 10%;
 }
+.list1 {
+    margin-left:10% ;
+    
+}
+.list2{
+    margin-left: -10%;
+}
+.list3{
+    margin-left: -10%;
+}
+.list4{
+    margin-left: -10%;
+}
 
 .part {
   display: flex;
@@ -190,31 +203,7 @@ hr {
     margin-right: 10%;
     color: white;
     list-style-type: none;
-    /* margin-top: 10px;
-    margin: 10%;
-    position: relative; 
-    /* padding: 2px; */ 
-    /* background-color: red;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    padding-bottom: 10%;
-    position: relative;  */
-  }
-  /* .links >.least ul{
-    list-style: none;
-      display: inline;
-      float: right; 
-      padding-top: 10px;
-      
-      color: white; 
-      margin-right: 5%; 
-      margin-top: 2%;
-  } */
-  
-  /* .icons{
-    background-color: red;
-    margin-left: 20%;
-    margin-top:-10% ; */
+   }
   .links >.sect li{
     list-style: none;
     padding-left: 30px;
@@ -250,50 +239,7 @@ hr {
     
   }
 
-/* .last {
-  background-color: rgb(61, 49, 49);
-  height: 400px;
-}
 
-.last h4 {
-  margin-bottom: 50px;
-  padding-top: 50px;
-  margin-left: 70px;
-}
-
-.last hr {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-span {
-  color: #faff00;
-}
-
-.last a {
-  float: right;
-  margin-top: -70px;
-  margin-right: 10%;
-  color: black;
-  padding: 20px;
-  text-decoration: none;
-  background-color: #ffac12;
-  border-top-right-radius: 20%;
-  color: white;
-}
-
-.links {
-  display: flex;
-  margin-top: 5%;
-  position: relative;
-  padding-right: 15px;
-  list-style: none;
-
-  /* max-width: 50%; */
-  float: right;
-  padding-bottom: 10px;
-  margin-right: 50px;
-}
 
 .least li {
   padding-right: 30px;
