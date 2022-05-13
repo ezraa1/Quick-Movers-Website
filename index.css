@@ -1,4 +1,4 @@
-li {
+.intro >.nav >li {
   list-style: none;
   display: inline;
   float: right;
@@ -33,26 +33,32 @@ h1 {
   background-image: url(moving\ 1.jpg);
   background-attachment: fixed;
   width: 100%;
-  background-size: 900px 80%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-body {
-  margin-right: 40%;
-  margin-left: 5%;
-  font-family: "Poppins,  Actor, Adamina";
-}
+
 
 .text1 hr{
   margin-right: 80%;
  top: 10px;
 }
 .text1 {
-  padding-left: 0%;
-  margin-left: 50%;
-  margin-top: -30%;
+  
+  margin-left: 45%;
+  margin-top: -25%;
+  margin-right: 20%;
+  
 }
 .img1 {
   padding-top: 30px;
+}
+#page >.page_1 hr{
+  margin-right: 92%;
+
+}
+#page >.page_1{
+  margin-top: 15%;
+  margin-left: 10%;
 }
 .button1 {
   background-color: black;
@@ -70,36 +76,66 @@ body {
   
 }
 
-.movers {
+#page >.movers {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
+  justify-content: space-between;
+  /* margin-top: 30px; */
   
-  position: relative;
-  
-  border-bottom: 20%;
+  /* position: relative; */
+  /* background-color: red; */
+  /* border-bottom: 20%;
   margin-bottom: 20%;
-  padding-bottom: 10%;
+  padding-bottom: 10%; */
+  padding: 20px;
 }
-.movers1 {
+#page >.movers >.start >img{
+  width: 90%;
+
+}
+/* #page >.movers >.start{
+  border: solid;
+ margin-left: 10%;
+  background-color: red;
+}
+#page >.movers >.start >.icon_a table tr td i{
+  border: solid;
+  border-collapse: collapse;
+  margin: 0%;
+}
+#page >.movers >.second{
+ border: solid;
+ border-collapse: collapse ;
+ margin-right: 15%;
+}
+#page > .movers >.third{
+  margin-right: 20px;
+  background-color: red; */
+
+/* .movers1 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
   margin: 0%;
   position: relative;
-}
+} */
 
 .last {
   background-color: rgb(61, 49, 49);
+  
 }
- .last h4{
+.last >.footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+ .links li h5{
    
-   margin-bottom: 50px;
-   padding-top: 50px;
-   margin-left: 70px;
+   /* margin-bottom: 50px; */
+   padding-top: 20px;
+   margin-left: 40px;
+   background-color: red;
    
  }
- 
  .last hr{
    margin-left: 10%;
    margin-right: 10%;
@@ -109,50 +145,45 @@ body {
  }
  .links {
   display: flex;
-  margin-top: 10px;
+  
+  margin-right: 10%;
+  /* margin-top: 10px;
   margin: 10%;
-  position: relative;
-  padding: 2px;
+  position: relative; 
+  /* padding: 2px; */ 
+  /* background-color: red;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+  position: relative;  */
 }
-li h4{
-  margin-top: -20px;
-}
+/* .links >.least ul{
+  list-style: none;
+    display: inline;
+    float: right; 
+    padding-top: 10px;
+    
+    color: white; 
+    margin-right: 5%; 
+    margin-top: 2%;
+} */
+
 /* .icons{
   background-color: red;
   margin-left: 20%;
   margin-top:-10% ; */
 
-h4 {
+.last h4 {
   color: white;
+  margin-left: 10%;
+  padding-bottom: 5%;
+ 
+  padding-top: 5%;
 }
 .top{
     margin-bottom: 20%;
     margin-top: 0%;
 }
-.line1{
-    padding-top: 15%;
-    width: 10%;
-    color: rgb(59, 29, 29);
-    
-}
-.line1 hr{
-  height: 2px;
-  
-}
-.second{
-  border-radius:5px solid black ;
-}
-.second i{
-  border-radius: 5px;
-  /* background-color: red; */
-  padding: 6px;
-  margin-top: 6px;
-  padding-left: 4px;
-  margin-left: 5%;
-  caption-side: bottom;
-}
-
-
 .icons {
   width: 10%;
   margin-top: 115px;
@@ -161,14 +192,10 @@ h4 {
  margin-left: 70px; 
  float: left;
  display: inline;
+ background-color: #faff00;
  
-
-  
 }
 .icons i{
   padding-right: 5px;
   
-}
-.last h4{
-  color: white;
 }

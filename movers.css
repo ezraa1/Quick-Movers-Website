@@ -82,9 +82,7 @@ form input{
     
 
 }
-body{
-    margin-right: 20%;
-}
+
 .rectangle{
     display: flex;
     position: relative;
@@ -129,7 +127,7 @@ hr{
   position: relative;
   padding-right: 2px;
   background-color:rgb(238, 238, 238) ;
-  margin-right: 45%;
+  /* margin-right: 45%; */
   margin-left: 10%;
   
 }
@@ -200,7 +198,7 @@ hr{
     padding-right: 15px;
     list-style: none;
     
-    max-width: 50%;
+    /* max-width: 50%; */
     float: right;
     padding-bottom: 10px;
     margin-right: 50px;
