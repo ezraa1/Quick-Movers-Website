@@ -92,6 +92,9 @@ h1 {
   width: 90%;
 
 }
+#page{
+  background-color:rgba(255, 255, 255, 0.425);
+}
 /* #page >.movers >.start{
   border: solid;
  margin-left: 10%;
