@@ -1,13 +1,22 @@
 # Quick-Movers-Website
+#### By Ezra Kipchirchir
 ### Description
 This project shows pages of  a website quick movers website where the first page contain the discriptive information about the website and even displays several pictures, same case to the second page of the website.
+### Table of content
+- Project-setup-Instructions and requirements
+- The Technology used
+- Known Bugs
+- Live link
+- License
+- Authors information
 ### Project-Setup-Instructions and requirements
-1)Installation of the Visual studio code with some of its extensions such as the live server 
-2)Git cloning the repository . 
-3)Initializing of Git ,git add files,git commit and git push. 
-4)Publisihing of the project.
+- Installation of the Visual studio code with some of its extensions such as the live server 
+- Git cloning the repository . 
+- Initializing of Git ,git add files,git commit and git push. 
+- Publisihing of the project.
 ### Technology-Used
-CSS - this was used to style the HTML page HTML - this is the language used to create the landing page
+- CSS - this was used to style the HTML page 
+- HTML - this is the language used to create the landing page
 ### Known-Bugs
 The project works perfectly.
 ### Live-Link
